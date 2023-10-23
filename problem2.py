@@ -17,3 +17,16 @@ example:
 Enter a number: 4
 4 8 12 16 20 24 28 32 36 40 44 48
 """
+
+
+num = int(input("enter a number"))
+
+count = 1
+
+
+while count != 12:
+    print(count)
+    count2 = count + count
+    print(count2)
+    if count == 12:
+        break
